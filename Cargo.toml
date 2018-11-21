@@ -1,0 +1,12 @@
+[package]
+name = "hello_rust"
+version = "0.1.0"
+authors = ["Josh Peak <neozenith.dev@gmail.com>"]
+
+[lib]
+name = "hello_rust"
+crate-type = ["dylib","staticlib"]
+
+# [dependencies.cpython]
+# version = "0.1"
+# features = ["extension-module"]

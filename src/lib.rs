@@ -1,7 +1,5 @@
-fn main() {
-  add(5,7);
-}
-pub fn add(a: i32, b: i32) -> i32 {
+#[no_mangle]
+pub extern fn add(a: i32, b: i32) -> i32 {
     a + b
 }
 

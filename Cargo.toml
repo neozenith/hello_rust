@@ -5,7 +5,7 @@ authors = ["Josh Peak <neozenith.dev@gmail.com>"]
 
 [lib]
 name = "hello_rust"
-crate-type = ["dylib","staticlib"]
+crate-type = ["dylib","staticlib","lib","cdylib"]
 
 # [dependencies.cpython]
 # version = "0.1"
